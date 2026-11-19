@@ -20,10 +20,10 @@ Pull up a chair. The code is open. The tea is questionable.
 
 ## Projects worth a deep dive
 
-<a href="https://github.com/bigstep832/zinlo"><picture>
+<p align="left"><a href="https://github.com/bigstep832/zinlo"><picture>
   <source media="(max-width: 640px)" srcset="assets/zinlo-card-mobile.svg">
   <img src="assets/zinlo-card.svg" width="100%" alt="Zinlo — a collaborative learning platform with time-zone-aware matching, WebRTC calls, and learning progression.">
-</picture></a>
+</picture></a></p>
 
 <details>
 <summary>Inside Zinlo: matching, calls, and learning sprints</summary>
@@ -40,10 +40,10 @@ A full-stack MVP for four-week learning sprints: compatible teammates, a shared 
 
 </details>
 
-<a href="https://github.com/bigstep832/cqa-hackathon"><picture>
+<p align="left"><a href="https://github.com/bigstep832/cqa-hackathon"><picture>
   <source media="(max-width: 640px)" srcset="assets/cqa-card-mobile.svg">
   <img src="assets/cqa-card.svg" width="100%" alt="Conversation Quality Analytics — weighted scoring, transcript evidence, and traceable human appeals.">
-</picture></a>
+</picture></a></p>
 
 <details>
 <summary>Inside CQA: evidence, scoring, and appeals</summary>
@@ -60,10 +60,10 @@ A team-built hackathon prototype for reviewing support conversations against con
 
 </details>
 
-<a href="https://github.com/bigstep832/daa-assignment-4-final/tree/main/Java/source"><picture>
+<p align="left"><a href="https://github.com/bigstep832/daa-assignment-4-final/tree/main/Java/source"><picture>
   <source media="(max-width: 640px)" srcset="assets/algorithms-card-mobile.svg">
   <img src="assets/algorithms-card.svg" width="100%" alt="Dynamic programming and string algorithms — reconstruction, independent oracles, and search benchmarks.">
-</picture></a>
+</picture></a></p>
 
 <details>
 <summary>Inside the algorithms: implementation and verification</summary>
@@ -80,10 +80,10 @@ Eight Java algorithms with solution reconstruction, independent oracle testing, 
 
 </details>
 
-<a href="https://github.com/bigstep832/Assignment_3_DAA/tree/main/Assignment_3_Java17_submission"><picture>
+<p align="left"><a href="https://github.com/bigstep832/Assignment_3_DAA/tree/main/Assignment_3_Java17_submission"><picture>
   <source media="(max-width: 640px)" srcset="assets/graphs-card-mobile.svg">
   <img src="assets/graphs-card.svg" width="100%" alt="Graph algorithms — spanning forests, strongly connected components, and reconstructable DAG paths.">
-</picture></a>
+</picture></a></p>
 
 <details>
 <summary>Inside the graph toolkit: forests, components, and routes</summary>
@@ -100,10 +100,10 @@ Six graph algorithms covering connectivity, spanning forests, strongly connected
 
 </details>
 
-<a href="https://github.com/bigstep832/visitor-pattern-assignment"><picture>
+<p align="left"><a href="https://github.com/bigstep832/visitor-pattern-assignment"><picture>
   <source media="(max-width: 640px)" srcset="assets/visitor-card-mobile.svg">
   <img src="assets/visitor-card.svg" width="100%" alt="Visitor pattern — an in-memory Java file tree with separate operations and strict tree invariants.">
-</picture></a>
+</picture></a></p>
 
 <details>
 <summary>Inside Visitor: traversal, invariants, and tests</summary>
