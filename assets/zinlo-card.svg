@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="zinlo-title zinlo-desc">
+  <title id="zinlo-title">Zinlo — collaborative learning MVP</title>
+  <desc id="zinlo-desc">Four-week learning sprints with timezone-aware matchmaking, private team chat and WebRTC calls, and scheduled lessons and progress. Built with React, Node.js, SQLite, and WebRTC. A schematic connects three teammates to a shared calendar with two meetings in each of four weeks.</desc>
+  <defs>
+    <linearGradient id="zinlo-bg" x1="0" y1="0" x2="960" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#082334"/>
+      <stop offset="1" stop-color="#073456"/>
+    </linearGradient>
+    <clipPath id="zinlo-clip"><rect width="960" height="320" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#zinlo-clip)" font-family="'Segoe UI', Arial, sans-serif">
+    <rect width="960" height="320" fill="url(#zinlo-bg)"/>
+    <path d="M0 307 C160 282 255 327 418 308 S720 285 960 308" fill="none" stroke="#39C6DF" stroke-opacity="0.13" stroke-width="2"/>
+    <text x="34" y="64" font-size="36" font-weight="700" fill="#F1FDFF">Zinlo</text>
+    <rect x="139" y="37" width="56" height="28" rx="14" fill="#FFBE58" fill-opacity="0.12"/>
+    <text x="167" y="56" text-anchor="middle" font-size="15" font-weight="600" fill="#FFBE58">MVP</text>
+    <text x="34" y="107" font-size="20" fill="#B9F3FA">Four-week learning sprints,</text>
+    <text x="34" y="135" font-size="20" fill="#B9F3FA">built around compatible teammates.</text>
+    <g fill="#39C6DF">
+      <circle cx="39" cy="178" r="4"/>
+      <circle cx="39" cy="211" r="4"/>
+      <circle cx="39" cy="244" r="4"/>
+    </g>
+    <g font-size="20" fill="#E4F4FB">
+      <text x="55" y="185">Timezone-aware matchmaking</text>
+      <text x="55" y="218">Private team chat &amp; WebRTC calls</text>
+      <text x="55" y="251">Scheduled lessons &amp; progress</text>
+    </g>
+    <text x="34" y="290" font-size="16" fill="#A8CADA">React · Node.js · SQLite · WebRTC</text>
+
+    <rect x="586" y="22" width="352" height="276" rx="16" fill="#0C3B58" stroke="#20617D"/>
+    <text x="610" y="56" font-size="18" font-weight="600" fill="#B9F3FA">One shared schedule</text>
+    <g fill="none" stroke="#39C6DF" stroke-opacity="0.45" stroke-width="2">
+      <path d="M669 235 V221 L731 204"/>
+      <path d="M762 235 V204"/>
+      <path d="M855 235 V221 L793 204"/>
+    </g>
+    <rect x="610" y="78" width="304" height="127" rx="12" fill="#082A40" stroke="#28718A"/>
+    <g font-size="16" fill="#B9F3FA" text-anchor="middle">
+      <text x="651" y="106">Week 1</text>
+      <text x="725" y="106">Week 2</text>
+      <text x="799" y="106">Week 3</text>
+      <text x="873" y="106">Week 4</text>
+    </g>
+    <g stroke="#20617D" stroke-opacity="0.7">
+      <path d="M688 89 V192 M762 89 V192 M836 89 V192"/>
+    </g>
+    <g fill="#39C6DF" fill-opacity="0.16" stroke="#39C6DF" stroke-opacity="0.65">
+      <rect x="630" y="122" width="42" height="22" rx="6"/>
+      <rect x="704" y="122" width="42" height="22" rx="6"/>
+      <rect x="778" y="122" width="42" height="22" rx="6"/>
+      <rect x="852" y="122" width="42" height="22" rx="6"/>
+      <rect x="630" y="158" width="42" height="22" rx="6"/>
+      <rect x="704" y="158" width="42" height="22" rx="6"/>
+      <rect x="778" y="158" width="42" height="22" rx="6"/>
+      <rect x="852" y="158" width="42" height="22" rx="6"/>
+    </g>
+    <g fill="#B9F3FA">
+      <circle cx="651" cy="133" r="3"/><circle cx="725" cy="133" r="3"/>
+      <circle cx="799" cy="133" r="3"/><circle cx="873" cy="133" r="3"/>
+      <circle cx="651" cy="169" r="3"/><circle cx="725" cy="169" r="3"/>
+      <circle cx="799" cy="169" r="3"/><circle cx="873" cy="169" r="3"/>
+    </g>
+    <g fill="#073456" stroke-width="2">
+      <circle cx="669" cy="247" r="20" stroke="#39C6DF"/>
+      <circle cx="762" cy="247" r="20" stroke="#FFBE58"/>
+      <circle cx="855" cy="247" r="20" stroke="#39C6DF"/>
+    </g>
+    <g fill="none" stroke="#B9F3FA" stroke-width="2" stroke-linecap="round">
+      <circle cx="669" cy="242" r="4"/><path d="M661 254 Q669 246 677 254"/>
+      <circle cx="762" cy="242" r="4"/><path d="M754 254 Q762 246 770 254"/>
+      <circle cx="855" cy="242" r="4"/><path d="M847 254 Q855 246 863 254"/>
+    </g>
+    <text x="762" y="287" text-anchor="middle" font-size="16" fill="#A8CADA">Compatible availability</text>
+  </g>
+  <rect x="0.5" y="0.5" width="959" height="319" rx="21.5" fill="none" stroke="#20617D"/>
+</svg>

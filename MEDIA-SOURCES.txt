@@ -23,4 +23,8 @@ Discovered in the related media of the oolong tea Tenor source page above.
 Original file: https://media.tenor.com/uM-_uWPq9mAAAAAM/oolong-burn.gif
 
 The local copies keep the README independent of external image hotlinks.
-Source-page links remain alongside the images in README.md.
+Source-page links are retained in the profile footer and optional reaction block.
+
+Project diagrams and toolbox SVGs are original vector compositions based on
+the public repository implementations. They contain no externally loaded media.
+Desktop and mobile compositions are separate, selected through picture sources.

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">Graph algorithms toolkit</title>
+  <desc id="desc">Java 17 graph algorithms: disjoint sets, Prim and Kruskal spanning forests, iterative strongly connected components and topological ordering, and reconstructable DAG shortest paths with independent verification. An illustrated DAG highlights a route from source to target.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#39c6df"/></marker>
+    <marker id="route" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#ffbe58"/></marker>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#b9f3fa" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="958" height="318" rx="20" fill="#082334" stroke="#23617b" stroke-width="2"/>
+  <path d="M1 302C162 270 265 325 428 296S756 265 959 296V300Q959 319 940 319H20Q1 319 1 302Z" fill="#073456"/>
+  <rect x="646" y="24" width="290" height="272" rx="14" fill="#073456"/>
+  <rect x="646" y="24" width="290" height="272" rx="14" fill="url(#grid)"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="32" y="38" font-size="15" font-weight="700" letter-spacing="2" fill="#39c6df">DEEP DIVE / GRAPHS</text>
+    <text x="32" y="88" font-size="34" font-weight="700" fill="#f0fbfd">Graph algorithms</text>
+    <text x="32" y="121" font-size="20" fill="#b9f3fa">From connected components to shortest paths.</text>
+    <g font-size="20" fill="#e0f2f7">
+      <circle cx="38" cy="166" r="3" fill="#ffbe58"/><text x="52" y="173">DSU + independent Prim &amp; Kruskal</text>
+      <circle cx="38" cy="200" r="3" fill="#39c6df"/><text x="52" y="207">Iterative SCC + topological ordering</text>
+      <circle cx="38" cy="234" r="3" fill="#39c6df"/><text x="52" y="241">DAG routes + randomized oracle checks</text>
+    </g>
+    <text x="32" y="283" font-size="16" font-family="Consolas, monospace" fill="#8fbbc9">JAVA 17  /  PYTHON TESTS  /  JSONL</text>
+  </g>
+  <g font-family="Consolas, monospace">
+    <text x="669" y="55" font-size="14" letter-spacing="1" fill="#b9f3fa">RECONSTRUCT THE ROUTE</text>
+    <path d="M670 70H912" stroke="#39c6df" stroke-opacity=".35"/>
+    <g fill="none" stroke="#39c6df" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M704 188L742 221"/><path d="M774 221L831 166"/>
+      <path d="M777 235H878"/><path d="M760 131V213"/>
+    </g>
+    <g fill="none" stroke="#ffbe58" stroke-width="3" marker-end="url(#route)">
+      <path d="M704 163L744 124"/><path d="M778 120L825 144"/><path d="M853 170L888 216"/>
+    </g>
+    <g fill="#082334" stroke="#ffbe58" stroke-width="2">
+      <circle cx="690" cy="176" r="19"/><circle cx="760" cy="112" r="19"/>
+      <circle cx="844" cy="153" r="19"/><circle cx="899" cy="235" r="19"/>
+    </g>
+    <circle cx="758" cy="235" r="19" fill="#082334" stroke="#39c6df" stroke-width="2"/>
+    <g font-size="20" text-anchor="middle" fill="#f0fbfd">
+      <text x="690" y="183">S</text><text x="760" y="119">A</text><text x="758" y="242">B</text>
+      <text x="844" y="160">C</text><text x="899" y="242">T</text>
+    </g>
+    <text x="669" y="278" font-size="14" fill="#b9f3fa">topology · reachability · routes</text>
+  </g>
+</svg>

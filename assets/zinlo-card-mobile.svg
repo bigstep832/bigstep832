@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="520" viewBox="0 0 480 520" role="img" aria-labelledby="zinlo-mobile-title zinlo-mobile-desc">
+  <title id="zinlo-mobile-title">Zinlo — collaborative learning MVP</title>
+  <desc id="zinlo-mobile-desc">Four-week learning sprints, timezone-aware matchmaking, private team chat and WebRTC calls, and scheduled lessons and progress. React, Node.js, SQLite, and WebRTC. Below the description, three teammates connect to a shared calendar with two meetings per week for four weeks.</desc>
+  <defs>
+    <linearGradient id="zinlo-mobile-bg" x1="0" y1="0" x2="480" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#082334"/><stop offset="1" stop-color="#073456"/></linearGradient>
+    <clipPath id="zinlo-mobile-clip"><rect width="480" height="520" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#zinlo-mobile-clip)" font-family="'Segoe UI', Arial, sans-serif">
+    <rect width="480" height="520" fill="url(#zinlo-mobile-bg)"/>
+    <text x="28" y="58" font-size="36" font-weight="700" fill="#F1FDFF">Zinlo</text>
+    <rect x="134" y="30" width="63" height="31" rx="15.5" fill="#FFBE58" fill-opacity="0.12"/>
+    <text x="165.5" y="52" text-anchor="middle" font-size="18" font-weight="600" fill="#FFBE58">MVP</text>
+    <g font-size="22" fill="#B9F3FA">
+      <text x="28" y="103">Four-week learning sprints,</text>
+      <text x="28" y="134">built around compatible teammates.</text>
+    </g>
+    <g fill="#39C6DF"><circle cx="32" cy="173" r="4"/><circle cx="32" cy="206" r="4"/><circle cx="32" cy="239" r="4"/></g>
+    <g font-size="22" fill="#E4F4FB">
+      <text x="47" y="180">Timezone-aware matchmaking</text>
+      <text x="47" y="213">Private team chat &amp; WebRTC calls</text>
+      <text x="47" y="246">Scheduled lessons &amp; progress</text>
+    </g>
+    <text x="28" y="286" font-size="22" fill="#A8CADA">React · Node.js · SQLite · WebRTC</text>
+
+    <rect x="24" y="311" width="432" height="186" rx="14" fill="#0C3B58" stroke="#20617D"/>
+    <text x="42" y="340" font-size="20" font-weight="600" fill="#B9F3FA">One shared schedule</text>
+    <g fill="none" stroke="#39C6DF" stroke-opacity="0.45" stroke-width="2">
+      <path d="M130 443 V436 L210 428 M240 443 V428 M350 443 V436 L270 428"/>
+    </g>
+    <rect x="42" y="354" width="396" height="74" rx="9" fill="#082A40" stroke="#28718A"/>
+    <g text-anchor="middle" font-size="18" fill="#B9F3FA">
+      <text x="94" y="379">Week 1</text><text x="191" y="379">Week 2</text><text x="288" y="379">Week 3</text><text x="385" y="379">Week 4</text>
+    </g>
+    <g stroke="#20617D" stroke-opacity="0.7"><path d="M143 363 V420 M240 363 V420 M337 363 V420"/></g>
+    <g fill="#39C6DF" fill-opacity="0.22" stroke="#39C6DF" stroke-opacity="0.7">
+      <rect x="69" y="389" width="50" height="10" rx="4"/><rect x="166" y="389" width="50" height="10" rx="4"/><rect x="263" y="389" width="50" height="10" rx="4"/><rect x="360" y="389" width="50" height="10" rx="4"/>
+      <rect x="69" y="407" width="50" height="10" rx="4"/><rect x="166" y="407" width="50" height="10" rx="4"/><rect x="263" y="407" width="50" height="10" rx="4"/><rect x="360" y="407" width="50" height="10" rx="4"/>
+    </g>
+    <g fill="#073456" stroke-width="2"><circle cx="130" cy="457" r="14" stroke="#39C6DF"/><circle cx="240" cy="457" r="14" stroke="#FFBE58"/><circle cx="350" cy="457" r="14" stroke="#39C6DF"/></g>
+    <g fill="none" stroke="#B9F3FA" stroke-width="1.5" stroke-linecap="round">
+      <circle cx="130" cy="453" r="3"/><path d="M124 462 Q130 456 136 462"/>
+      <circle cx="240" cy="453" r="3"/><path d="M234 462 Q240 456 246 462"/>
+      <circle cx="350" cy="453" r="3"/><path d="M344 462 Q350 456 356 462"/>
+    </g>
+    <text x="240" y="487" text-anchor="middle" font-size="16" fill="#A8CADA">Compatible availability</text>
+  </g>
+  <rect x="0.5" y="0.5" width="479" height="519" rx="19.5" fill="none" stroke="#20617D"/>
+</svg>

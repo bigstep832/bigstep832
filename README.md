@@ -4,26 +4,29 @@
 
 ## Hey, I'm bigstep832 👋
 
-I build web apps with React, Node.js, and Python — from collaborative learning sprints to evidence-based conversation review. On the Java side, I explore algorithms, data structures, and software design.
+<a href="https://raw.githubusercontent.com/bigstep832/bigstep832/main/assets/oolong-tea.gif"><img align="right" src="assets/oolong-tea.gif" width="32%" alt="Iori and Kohei serving suspicious oolong tea in Grand Blue."></a>
 
-The interesting part for me is what happens beneath the interface: matching people across time zones, connecting a video call, tracing a score back to its evidence, or checking an algorithm against an independent oracle.
+I build web apps with **React, Node.js, and Python**, and explore algorithms and software design in **Java**.
 
-[Explore my projects](#projects-worth-a-deep-dive) · [Toolbox](#toolbox) · [Diving club](#diving-club-config) · [All repositories](https://github.com/bigstep832?tab=repositories)
+My projects go beneath the interface: matching teammates across time zones, connecting video calls, tracing scores back to evidence, and checking algorithms against independent oracles.
 
-### Water or oolong tea? 🥃
+Pull up a chair. The code is open. The tea is questionable.
 
-<p align="center">
-  <a href="https://raw.githubusercontent.com/bigstep832/bigstep832/main/assets/oolong-tea.gif"><img src="assets/oolong-tea.gif" width="350" alt="Animated Grand Blue scene: Iori and Kohei discover the diving club's oolong tea."></a>
-  <a href="https://raw.githubusercontent.com/bigstep832/bigstep832/main/assets/water-test.gif"><img src="assets/water-test.gif" width="250" alt="Animated Grand Blue water test: a lighter reveals that the supposed water burns."></a>
-</p>
+[Projects](#projects-worth-a-deep-dive) · [Toolbox](#toolbox) · [Club rules](#diving-club-config) · [Repositories](https://github.com/bigstep832?tab=repositories)
 
-<p align="center"><em>Looks like water. Fails the integration test.</em><br><sub>Grand Blue scenes via Tenor · <a href="https://tenor.com/view/oolong-tea-grand-blue-iori-gif-13475090">Oolong tea</a> · <a href="https://media.tenor.com/uM-_uWPq9mAAAAAM/oolong-burn.gif">Water test</a><br>Click either GIF to open the animation directly.</sub></p>
+<br clear="both">
 
 <img src="assets/signal.svg" width="100%" alt="Animated cyan ocean waves and tiny bubbles.">
 
 ## Projects worth a deep dive
 
-### 🌊 [Zinlo — learn together, stay in sync](https://github.com/bigstep832/zinlo)
+<a href="https://github.com/bigstep832/zinlo"><picture>
+  <source media="(max-width: 640px)" srcset="assets/zinlo-card-mobile.svg">
+  <img src="assets/zinlo-card.svg" width="100%" alt="Zinlo — a collaborative learning platform with time-zone-aware matching, WebRTC calls, and learning progression.">
+</picture></a>
+
+<details>
+<summary>Inside Zinlo: matching, calls, and learning sprints</summary>
 
 A full-stack MVP for four-week learning sprints: compatible teammates, a shared schedule, structured lessons, private chat, and browser-based video calls.
 
@@ -35,7 +38,15 @@ A full-stack MVP for four-week learning sprints: compatible teammates, a shared 
 
 [Matchmaking logic](https://github.com/bigstep832/zinlo/blob/main/server/matchmaking.js) · [Video peers](https://github.com/bigstep832/zinlo/blob/main/src/video-peer.js) · [Progression rules](https://github.com/bigstep832/zinlo/blob/main/server/progression.js)
 
-### 🔎 [Conversation Quality Analytics — show the evidence](https://github.com/bigstep832/cqa-hackathon)
+</details>
+
+<a href="https://github.com/bigstep832/cqa-hackathon"><picture>
+  <source media="(max-width: 640px)" srcset="assets/cqa-card-mobile.svg">
+  <img src="assets/cqa-card.svg" width="100%" alt="Conversation Quality Analytics — weighted scoring, transcript evidence, and traceable human appeals.">
+</picture></a>
+
+<details>
+<summary>Inside CQA: evidence, scoring, and appeals</summary>
 
 A team-built hackathon prototype for reviewing support conversations against configurable quality checklists, connecting assessments to transcript evidence and human appeals.
 
@@ -47,7 +58,15 @@ A team-built hackathon prototype for reviewing support conversations against con
 
 [Scoring engine](https://github.com/bigstep832/cqa-hackathon/blob/main/backend/app/domain/scoring.py) · [Review workspace](https://github.com/bigstep832/cqa-hackathon/blob/main/frontend/src/ReviewWorkspace.tsx) · [Appeal handling](https://github.com/bigstep832/cqa-hackathon/blob/main/backend/app/services/appeals.py)
 
-### 🧠 [Dynamic programming & string algorithms](https://github.com/bigstep832/daa-assignment-4-final/tree/main/Java/source)
+</details>
+
+<a href="https://github.com/bigstep832/daa-assignment-4-final/tree/main/Java/source"><picture>
+  <source media="(max-width: 640px)" srcset="assets/algorithms-card-mobile.svg">
+  <img src="assets/algorithms-card.svg" width="100%" alt="Dynamic programming and string algorithms — reconstruction, independent oracles, and search benchmarks.">
+</picture></a>
+
+<details>
+<summary>Inside the algorithms: implementation and verification</summary>
 
 Eight Java algorithms with solution reconstruction, independent oracle testing, and reproducible search benchmarks.
 
@@ -59,7 +78,15 @@ Eight Java algorithms with solution reconstruction, independent oracle testing, 
 
 [Implemented algorithms](https://github.com/bigstep832/daa-assignment-4-final/blob/main/Java/source/Algorithms.java) · [Independent tests](https://github.com/bigstep832/daa-assignment-4-final/blob/main/tests/student/test_solution.py) · [Search benchmark](https://github.com/bigstep832/daa-assignment-4-final/blob/main/tests/student/SearchBenchmark.java)
 
-### 🕸️ [Graph algorithms toolkit](https://github.com/bigstep832/Assignment_3_DAA/tree/main/Assignment_3_Java17_submission)
+</details>
+
+<a href="https://github.com/bigstep832/Assignment_3_DAA/tree/main/Assignment_3_Java17_submission"><picture>
+  <source media="(max-width: 640px)" srcset="assets/graphs-card-mobile.svg">
+  <img src="assets/graphs-card.svg" width="100%" alt="Graph algorithms — spanning forests, strongly connected components, and reconstructable DAG paths.">
+</picture></a>
+
+<details>
+<summary>Inside the graph toolkit: forests, components, and routes</summary>
 
 Six graph algorithms covering connectivity, spanning forests, strongly connected components, and reconstructable routes in DAGs.
 
@@ -71,7 +98,15 @@ Six graph algorithms covering connectivity, spanning forests, strongly connected
 
 [Completed implementation](https://github.com/bigstep832/Assignment_3_DAA/blob/main/Assignment_3_Java17_submission/src/Java/Algorithms.java) · [Oracle tests](https://github.com/bigstep832/Assignment_3_DAA/blob/main/Assignment_3_Java17_submission/tests/run_own.py) · [Benchmark](https://github.com/bigstep832/Assignment_3_DAA/blob/main/Assignment_3_Java17_submission/tests/benchmark/Benchmark.java)
 
-### 🗂️ [Visitor pattern — a file tree with rules](https://github.com/bigstep832/visitor-pattern-assignment)
+</details>
+
+<a href="https://github.com/bigstep832/visitor-pattern-assignment"><picture>
+  <source media="(max-width: 640px)" srcset="assets/visitor-card-mobile.svg">
+  <img src="assets/visitor-card.svg" width="100%" alt="Visitor pattern — an in-memory Java file tree with separate operations and strict tree invariants.">
+</picture></a>
+
+<details>
+<summary>Inside Visitor: traversal, invariants, and tests</summary>
 
 An extensible in-memory file tree built around Visitor, double dispatch, and a sealed Java class hierarchy.
 
@@ -83,7 +118,17 @@ An extensible in-memory file tree built around Visitor, double dispatch, and a s
 
 [Traversal](https://github.com/bigstep832/visitor-pattern-assignment/blob/main/src/main/java/edu/aitu/visitor/TreeVisitor.java) · [Tree invariants](https://github.com/bigstep832/visitor-pattern-assignment/blob/main/src/main/java/edu/aitu/visitor/DirectoryNode.java) · [Integrity tests](https://github.com/bigstep832/visitor-pattern-assignment/blob/main/src/test/java/edu/aitu/visitor/TreeIntegrityTest.java)
 
+</details>
+
 ## Toolbox
+
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/toolbox-mobile.svg">
+  <img src="assets/toolbox.svg" width="100%" alt="Toolbox: React, TypeScript and Vite; Node.js, Python and FastAPI; Java, JUnit and independent algorithm tests.">
+</picture>
+
+<details>
+<summary>All tools used in the featured projects</summary>
 
 | Area | Tools used in these projects |
 | --- | --- |
@@ -93,17 +138,22 @@ An extensible in-memory file tree built around Visitor, double dispatch, and a s
 | Algorithms & design | Java 17, data structures, graph algorithms, design patterns |
 | Testing | pytest, Vitest, Playwright, JUnit 5, randomized oracles |
 
+</details>
+
 ## Diving club config
 
+<a href="https://raw.githubusercontent.com/bigstep832/bigstep832/main/assets/water-test.gif"><img align="right" src="assets/water-test.gif" width="24%" alt="Grand Blue: the supposed water catches fire during a lighter test."></a>
+
+Trust the tests. Never trust the label on the glass.
+
 ```typescript
-const divingClub = {
-  activity: "diving, allegedly",
-  fuel: "oolong tea",
-  trustIssues: ["anything labeled water"],
-  debugging: "check the evidence before blaming the ocean",
-  rule: "if the tea catches fire, open an issue",
-};
+const tea = inspect(glass);
+if (tea.flammable) {
+  throw Error("Not water.");
+}
 ```
+
+<br clear="both">
 
 <details>
 <summary>🧊 Emergency tea cabinet — open after a failed build</summary>
@@ -111,3 +161,5 @@ const divingClub = {
 </details>
 
 <p align="center"><sub>Yes, Grand Blue is a diving anime. We checked the README.</sub></p>
+
+<p align="center"><sub>Grand Blue clips: <a href="https://tenor.com/view/oolong-tea-grand-blue-iori-gif-13475090">oolong tea</a> · <a href="https://media.tenor.com/uM-_uWPq9mAAAAAM/oolong-burn.gif">water test</a> · <a href="MEDIA-SOURCES.txt">media credits</a></sub></p>

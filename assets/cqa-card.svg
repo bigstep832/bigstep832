@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="cqa-title cqa-desc">
+  <title id="cqa-title">Conversation Quality Analytics — team hackathon prototype</title>
+  <desc id="cqa-desc">Review conversations with configurable weighted checklists, transcript-linked evidence, and separate original scores and human appeal decisions. Built with Python, FastAPI, React, TypeScript, and SQLite. A schematic connects a highlighted transcript passage to a checklist and distinguishes original and reviewed results. No numerical scores are shown.</desc>
+  <defs>
+    <linearGradient id="cqa-bg" x1="0" y1="0" x2="960" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#082334"/>
+      <stop offset="1" stop-color="#073456"/>
+    </linearGradient>
+    <clipPath id="cqa-clip"><rect width="960" height="320" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#cqa-clip)" font-family="'Segoe UI', Arial, sans-serif">
+    <rect width="960" height="320" fill="url(#cqa-bg)"/>
+    <path d="M0 307 C160 282 255 327 418 308 S720 285 960 308" fill="none" stroke="#39C6DF" stroke-opacity="0.13" stroke-width="2"/>
+    <text x="34" y="64" font-size="36" font-weight="700" fill="#F1FDFF">CQA</text>
+    <rect x="127" y="37" width="151" height="28" rx="14" fill="#FFBE58" fill-opacity="0.12"/>
+    <text x="202.5" y="56" text-anchor="middle" font-size="15" font-weight="600" fill="#FFBE58">Team prototype</text>
+    <text x="34" y="107" font-size="20" fill="#B9F3FA">Review conversations with evidence,</text>
+    <text x="34" y="135" font-size="20" fill="#B9F3FA">clear scoring, and human appeals.</text>
+    <g fill="#39C6DF">
+      <circle cx="39" cy="178" r="4"/>
+      <circle cx="39" cy="211" r="4"/>
+      <circle cx="39" cy="244" r="4"/>
+    </g>
+    <g font-size="20" fill="#E4F4FB">
+      <text x="55" y="185">Configurable weighted checklists</text>
+      <text x="55" y="218">Transcript-linked evidence</text>
+      <text x="55" y="251">Original scores &amp; appeal decisions</text>
+    </g>
+    <text x="34" y="290" font-size="16" fill="#A8CADA">Python · FastAPI · React · TypeScript · SQLite</text>
+
+    <rect x="586" y="22" width="352" height="276" rx="16" fill="#0C3B58" stroke="#20617D"/>
+    <text x="610" y="56" font-size="18" font-weight="600" fill="#B9F3FA">Follow the evidence</text>
+    <rect x="610" y="79" width="151" height="127" rx="12" fill="#082A40" stroke="#28718A"/>
+    <text x="623" y="104" font-size="16" fill="#B9F3FA">Transcript</text>
+    <g stroke="#6F9CAD" stroke-opacity="0.6" stroke-width="4" stroke-linecap="round">
+      <path d="M625 122 H727 M625 133 H709"/>
+      <path d="M625 184 H733"/>
+    </g>
+    <rect x="620" y="145" width="131" height="25" rx="5" fill="#39C6DF" fill-opacity="0.16" stroke="#39C6DF" stroke-opacity="0.7"/>
+    <path d="M630 157 H736" fill="none" stroke="#B9F3FA" stroke-width="4" stroke-linecap="round"/>
+
+    <rect x="791" y="79" width="123" height="127" rx="12" fill="#082A40" stroke="#28718A"/>
+    <text x="804" y="104" font-size="16" fill="#B9F3FA">Checklist</text>
+    <g fill="none" stroke="#39C6DF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M805 123 L809 127 L816 119"/>
+      <path d="M805 153 L809 157 L816 149"/>
+      <path d="M805 183 L809 187 L816 179"/>
+    </g>
+    <g stroke="#91BDCB" stroke-width="4" stroke-linecap="round">
+      <path d="M826 123 H894 M826 153 H884 M826 183 H890"/>
+    </g>
+    <path d="M751 157 H770 Q778 157 778 149 V140 Q778 132 786 132 H802" fill="none" stroke="#FFBE58" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="802" cy="132" r="3" fill="#FFBE58"/>
+
+    <g font-size="16" text-anchor="middle">
+      <rect x="610" y="230" width="127" height="37" rx="8" fill="#073456" stroke="#28718A"/>
+      <text x="673.5" y="254" fill="#B9F3FA">Original</text>
+      <rect x="787" y="230" width="127" height="37" rx="8" fill="#FFBE58" fill-opacity="0.09" stroke="#A98A51"/>
+      <text x="850.5" y="254" fill="#FFBE58">Reviewed</text>
+    </g>
+    <path d="M744 248 H777 M770 243 L777 248 L770 253" fill="none" stroke="#FFBE58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="762" y="287" text-anchor="middle" font-size="16" fill="#A8CADA">Human review, preserved originals</text>
+  </g>
+  <rect x="0.5" y="0.5" width="959" height="319" rx="21.5" fill="none" stroke="#20617D"/>
+</svg>

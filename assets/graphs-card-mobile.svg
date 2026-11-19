@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="520" viewBox="0 0 480 520" role="img" aria-labelledby="title desc">
+  <title id="title">Graph algorithms toolkit</title>
+  <desc id="desc">Java 17 implementations of DSU, independent Prim and Kruskal, iterative strongly connected components and topological ordering, DAG routes, and randomized oracle checks. A DAG illustrates a reconstructed source-to-target route.</desc>
+  <defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#39c6df"/></marker><marker id="route" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#ffbe58"/></marker></defs>
+  <rect x="1" y="1" width="478" height="518" rx="20" fill="#082334" stroke="#23617b" stroke-width="2"/>
+  <path d="M1 496C90 469 170 520 264 489S399 475 479 494V499Q479 519 459 519H21Q1 519 1 496Z" fill="#073456"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="26" y="37" font-size="16" font-weight="700" letter-spacing="1.5" fill="#39c6df">DEEP DIVE / GRAPHS</text>
+    <text x="26" y="80" font-size="28" font-weight="700" fill="#f0fbfd">Graph algorithms</text>
+    <g font-size="22" fill="#b9f3fa"><text x="26" y="119">From connected components</text><text x="26" y="149">to shortest paths.</text></g>
+    <g font-size="22" fill="#e0f2f7">
+      <circle cx="30" cy="188" r="3" fill="#ffbe58"/><text x="43" y="196">DSU + Prim &amp; Kruskal forests</text>
+      <circle cx="30" cy="222" r="3" fill="#39c6df"/><text x="43" y="230">Iterative SCC + topological order</text>
+      <circle cx="30" cy="256" r="3" fill="#39c6df"/><text x="43" y="264">DAG routes + oracle checks</text>
+    </g>
+    <text x="26" y="302" font-size="20" fill="#8fbbc9">Java 17 / Python tests / JSONL</text>
+  </g>
+  <rect x="22" y="322" width="436" height="176" rx="14" fill="#073456"/>
+  <g fill="none" stroke="#39c6df" stroke-width="2" marker-end="url(#arrow)"><path d="M93 415L164 456"/><path d="M204 456L285 390"/><path d="M208 467H380"/><path d="M184 382V443"/></g>
+  <g fill="none" stroke="#ffbe58" stroke-width="3" marker-end="url(#route)"><path d="M94 392L163 367"/><path d="M206 362L280 375"/><path d="M321 393L385 451"/></g>
+  <g fill="#082334" stroke="#ffbe58" stroke-width="2"><circle cx="74" cy="404" r="22"/><circle cx="184" cy="360" r="22"/><circle cx="302" cy="380" r="22"/><circle cx="403" cy="467" r="22"/></g>
+  <circle cx="184" cy="467" r="22" fill="#082334" stroke="#39c6df" stroke-width="2"/>
+  <g font-family="Consolas, monospace" font-size="24" text-anchor="middle" fill="#f0fbfd"><text x="74" y="412">S</text><text x="184" y="368">A</text><text x="184" y="475">B</text><text x="302" y="388">C</text><text x="403" y="475">T</text></g>
+</svg>

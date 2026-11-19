@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="520" viewBox="0 0 480 520" role="img" aria-labelledby="title desc">
+  <title id="title">Visitor pattern file tree</title>
+  <desc id="desc">Java 17 file-tree model with double dispatch, explicit-stack traversal, separate visitors for size, search, and statistics, cycle guards, immutable snapshots, and JUnit tests. One illustrated file tree supports three independent visitor operations.</desc>
+  <rect x="1" y="1" width="478" height="518" rx="20" fill="#082334" stroke="#23617b" stroke-width="2"/>
+  <path d="M1 496C90 469 170 520 264 489S399 475 479 494V499Q479 519 459 519H21Q1 519 1 496Z" fill="#073456"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="26" y="37" font-size="16" font-weight="700" letter-spacing="1.5" fill="#39c6df">DEEP DIVE / SOFTWARE DESIGN</text>
+    <text x="26" y="80" font-size="28" font-weight="700" fill="#f0fbfd">Visitor, beyond the pattern</text>
+    <g font-size="22" fill="#b9f3fa"><text x="26" y="119">An extensible file tree</text><text x="26" y="149">with strict invariants.</text></g>
+    <g font-size="22" fill="#e0f2f7">
+      <circle cx="30" cy="188" r="3" fill="#ffbe58"/><text x="43" y="196">Double dispatch + iterative traversal</text>
+      <circle cx="30" cy="222" r="3" fill="#39c6df"/><text x="43" y="230">Separate size, search &amp; stats visitors</text>
+      <circle cx="30" cy="256" r="3" fill="#39c6df"/><text x="43" y="264">Cycle guards + immutable snapshots</text>
+    </g>
+    <text x="26" y="302" font-size="20" fill="#8fbbc9">Java 17 / Maven / JUnit 5</text>
+  </g>
+  <rect x="22" y="322" width="436" height="176" rx="14" fill="#073456"/>
+  <g fill="none" stroke="#39c6df" stroke-width="2"><path d="M240 368V384H125V397M240 384H355V397M125 423V436H85V446M125 436H165V446M355 423V446"/></g>
+  <g fill="#082334" stroke="#ffbe58" stroke-width="2"><path d="M210 338H233L240 346H270V368H210Z"/><path d="M102 398H118L125 405H148V423H102Z"/><path d="M332 398H348L355 405H378V423H332Z"/></g>
+  <g fill="#082334" stroke="#b9f3fa" stroke-width="1.5"><path d="M76 445H89L96 452V466H76ZM89 445V452H96"/><path d="M156 445H169L176 452V466H156ZM169 445V452H176"/><path d="M346 445H359L366 452V466H346ZM359 445V452H366"/></g>
+  <g font-family="Consolas, monospace" text-anchor="middle"><text x="240" y="363" font-size="20" fill="#ffbe58">root</text><g font-size="18" fill="#b9f3fa"><text x="85" y="489">size</text><text x="240" y="489">search</text><text x="395" y="489">stats</text></g></g>
+</svg>

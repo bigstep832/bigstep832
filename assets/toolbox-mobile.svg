@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="426" viewBox="0 0 480 426" role="img" aria-labelledby="title desc">
+<title id="title">Tools behind the projects</title><desc id="desc">React, TypeScript, JavaScript and Vite. Node.js, Python, FastAPI and SQLite. Java, JUnit and independent oracles.</desc>
+<rect width="480" height="426" rx="18" fill="#082334"/><path d="M28 142h424M28 284h424" stroke="#246078"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<g transform="translate(28 28)"><rect width="38" height="29" rx="5" fill="none" stroke="#39c6df" stroke-width="2"/><path d="M0 9h38" stroke="#39c6df"/><text x="58" y="24" font-size="28" font-weight="700" fill="#b9f3fa">Interfaces</text><text x="58" y="62" font-size="23" fill="#e8f5f8">React · TypeScript</text><text x="58" y="94" font-size="23" fill="#94bdcb">JavaScript · Vite</text></g>
+<g transform="translate(28 170)"><ellipse cx="19" cy="5" rx="18" ry="5" fill="none" stroke="#39c6df" stroke-width="2"/><path d="M1 5v24c0 7 36 7 36 0V5M1 17c0 7 36 7 36 0" fill="none" stroke="#39c6df" stroke-width="2"/><text x="58" y="24" font-size="28" font-weight="700" fill="#b9f3fa">Backend &amp; data</text><text x="58" y="62" font-size="23" fill="#e8f5f8">Node.js · Python</text><text x="58" y="94" font-size="23" fill="#94bdcb">FastAPI · SQLite</text></g>
+<g transform="translate(28 312)"><path d="M3 16l9 9L35 3" fill="none" stroke="#ffbe58" stroke-width="3" stroke-linecap="round"/><text x="58" y="24" font-size="28" font-weight="700" fill="#b9f3fa">Algorithms &amp; tests</text><text x="58" y="62" font-size="23" fill="#e8f5f8">Java · JUnit</text><text x="58" y="94" font-size="23" fill="#94bdcb">Independent oracles</text></g>
+</g></svg>

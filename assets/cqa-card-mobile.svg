@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="520" viewBox="0 0 480 520" role="img" aria-labelledby="cqa-mobile-title cqa-mobile-desc">
+  <title id="cqa-mobile-title">Conversation Quality Analytics — team hackathon prototype</title>
+  <desc id="cqa-mobile-desc">Review conversations with evidence, clear scoring, and human appeals. Configurable weighted checklists, transcript-linked evidence, and separate original scores and human appeals. Python, FastAPI, SQLite, React, and TypeScript. A schematic links a transcript passage to a checklist and distinguishes original and reviewed results without numerical scores.</desc>
+  <defs>
+    <linearGradient id="cqa-mobile-bg" x1="0" y1="0" x2="480" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#082334"/><stop offset="1" stop-color="#073456"/></linearGradient>
+    <clipPath id="cqa-mobile-clip"><rect width="480" height="520" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#cqa-mobile-clip)" font-family="'Segoe UI', Arial, sans-serif">
+    <rect width="480" height="520" fill="url(#cqa-mobile-bg)"/>
+    <text x="28" y="58" font-size="36" font-weight="700" fill="#F1FDFF">CQA</text>
+    <rect x="121" y="30" width="176" height="31" rx="15.5" fill="#FFBE58" fill-opacity="0.12"/>
+    <text x="209" y="52" text-anchor="middle" font-size="18" font-weight="600" fill="#FFBE58">Team prototype</text>
+    <g font-size="22" fill="#B9F3FA">
+      <text x="28" y="103">Review conversations with evidence,</text>
+      <text x="28" y="134">clear scoring, and human appeals.</text>
+    </g>
+    <g fill="#39C6DF"><circle cx="32" cy="171" r="4"/><circle cx="32" cy="204" r="4"/><circle cx="32" cy="237" r="4"/></g>
+    <g font-size="22" fill="#E4F4FB">
+      <text x="47" y="178">Configurable weighted checklists</text>
+      <text x="47" y="211">Transcript-linked evidence</text>
+      <text x="47" y="244">Original scores &amp; human appeals</text>
+    </g>
+    <g font-size="22" fill="#A8CADA"><text x="28" y="280">Python · FastAPI · SQLite</text><text x="28" y="309">React · TypeScript</text></g>
+
+    <rect x="24" y="331" width="432" height="168" rx="14" fill="#0C3B58" stroke="#20617D"/>
+    <text x="42" y="358" font-size="20" font-weight="600" fill="#B9F3FA">Follow the evidence</text>
+    <rect x="42" y="371" width="174" height="70" rx="9" fill="#082A40" stroke="#28718A"/>
+    <text x="54" y="394" font-size="18" fill="#B9F3FA">Transcript</text>
+    <path d="M55 405 H191" fill="none" stroke="#6F9CAD" stroke-opacity="0.6" stroke-width="3" stroke-linecap="round"/>
+    <rect x="52" y="414" width="154" height="16" rx="4" fill="#39C6DF" fill-opacity="0.16" stroke="#39C6DF" stroke-opacity="0.7"/>
+    <path d="M61 422 H197" fill="none" stroke="#B9F3FA" stroke-width="3" stroke-linecap="round"/>
+    <rect x="274" y="371" width="164" height="70" rx="9" fill="#082A40" stroke="#28718A"/>
+    <text x="286" y="394" font-size="18" fill="#B9F3FA">Checklist</text>
+    <g fill="none" stroke="#39C6DF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M287 406 L290 409 L296 402 M287 423 L290 426 L296 419"/></g>
+    <g stroke="#91BDCB" stroke-width="3" stroke-linecap="round"><path d="M306 406 H421 M306 423 H406"/></g>
+    <path d="M206 422 H238 Q247 422 247 413 V411 Q247 402 256 402 H278" fill="none" stroke="#FFBE58" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="278" cy="402" r="3" fill="#FFBE58"/>
+    <rect x="42" y="456" width="152" height="31" rx="7" fill="#073456" stroke="#28718A"/>
+    <rect x="286" y="456" width="152" height="31" rx="7" fill="#FFBE58" fill-opacity="0.09" stroke="#A98A51"/>
+    <g text-anchor="middle" font-size="18"><text x="118" y="478" fill="#B9F3FA">Original</text><text x="362" y="478" fill="#FFBE58">Reviewed</text></g>
+    <path d="M206 472 H274 M267 467 L274 472 L267 477" fill="none" stroke="#FFBE58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <rect x="0.5" y="0.5" width="479" height="519" rx="19.5" fill="none" stroke="#20617D"/>
+</svg>

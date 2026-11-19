@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="520" viewBox="0 0 480 520" role="img" aria-labelledby="title desc">
+  <title id="title">Dynamic programming and string search</title>
+  <desc id="desc">Java algorithms with reconstructed LCS, merge plans and tree independent sets; KMP, Rabin–Karp, suffix arrays and Aho–Corasick; independent Python test oracles. The diagram shows overlapping matches of ana in banana.</desc>
+  <rect x="1" y="1" width="478" height="518" rx="20" fill="#082334" stroke="#23617b" stroke-width="2"/>
+  <path d="M1 496C90 469 170 520 264 489S399 475 479 494V499Q479 519 459 519H21Q1 519 1 496Z" fill="#073456"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="26" y="37" font-size="16" font-weight="700" letter-spacing="1.5" fill="#39c6df">DEEP DIVE / ALGORITHMS</text>
+    <g font-size="28" font-weight="700" fill="#f0fbfd"><text x="26" y="78">Dynamic programming</text><text x="26" y="112">&amp; string search</text></g>
+    <text x="26" y="150" font-size="22" fill="#b9f3fa">Algorithms. Reconstructed solutions.</text>
+    <g font-size="22" fill="#e0f2f7">
+      <circle cx="30" cy="188" r="3" fill="#ffbe58"/><text x="43" y="196">LCS, merge plans &amp; tree sets</text>
+      <circle cx="30" cy="222" r="3" fill="#39c6df"/><text x="43" y="230">KMP · Rabin–Karp · suffix arrays</text>
+      <circle cx="30" cy="256" r="3" fill="#39c6df"/><text x="43" y="264">Aho–Corasick + test oracles</text>
+    </g>
+    <text x="26" y="302" font-size="20" fill="#8fbbc9">Java / Python tests / JSONL</text>
+  </g>
+  <rect x="22" y="322" width="436" height="176" rx="14" fill="#073456"/>
+  <g font-family="Consolas, monospace">
+    <g fill="#082334" stroke="#39758b"><rect x="64" y="341" width="50" height="43" rx="6"/><rect x="122" y="341" width="50" height="43" rx="6"/><rect x="180" y="341" width="50" height="43" rx="6"/><rect x="238" y="341" width="50" height="43" rx="6"/><rect x="296" y="341" width="50" height="43" rx="6"/><rect x="354" y="341" width="50" height="43" rx="6"/></g>
+    <g font-size="28" fill="#f0fbfd" text-anchor="middle"><text x="89" y="373">b</text><text x="147" y="373">a</text><text x="205" y="373">n</text><text x="263" y="373">a</text><text x="321" y="373">n</text><text x="379" y="373">a</text></g>
+    <rect x="122" y="397" width="166" height="36" rx="6" fill="#ffbe58"/>
+    <g font-size="25" fill="#082334" text-anchor="middle"><text x="147" y="424">a</text><text x="205" y="424">n</text><text x="263" y="424">a</text></g>
+    <rect x="238" y="447" width="166" height="36" rx="6" fill="#39c6df"/>
+    <g font-size="25" fill="#082334" text-anchor="middle"><text x="263" y="474">a</text><text x="321" y="474">n</text><text x="379" y="474">a</text></g>
+    <path d="M300 415H379V440M374 435L379 440L384 435" fill="none" stroke="#39c6df" stroke-width="2"/>
+    <text x="43" y="471" font-size="20" fill="#b9f3fa">overlap ↗</text>
+  </g>
+</svg>

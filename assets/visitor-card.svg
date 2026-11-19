@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">Visitor pattern file tree</title>
+  <desc id="desc">A Java 17 file-tree model with double dispatch, explicit-stack traversal, separate size, search, and statistics visitors, tree invariants, immutable snapshots, and JUnit tests. A file-tree diagram shows one structure supporting three independent operations.</desc>
+  <defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#b9f3fa" stroke-opacity=".035"/></pattern></defs>
+  <rect x="1" y="1" width="958" height="318" rx="20" fill="#082334" stroke="#23617b" stroke-width="2"/>
+  <path d="M1 302C162 270 265 325 428 296S756 265 959 296V300Q959 319 940 319H20Q1 319 1 302Z" fill="#073456"/>
+  <rect x="646" y="24" width="290" height="272" rx="14" fill="#073456"/>
+  <rect x="646" y="24" width="290" height="272" rx="14" fill="url(#grid)"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="32" y="38" font-size="15" font-weight="700" letter-spacing="2" fill="#39c6df">DEEP DIVE / SOFTWARE DESIGN</text>
+    <text x="32" y="88" font-size="34" font-weight="700" fill="#f0fbfd">Visitor, beyond the pattern</text>
+    <text x="32" y="121" font-size="20" fill="#b9f3fa">An extensible file tree with strict invariants.</text>
+    <g font-size="20" fill="#e0f2f7">
+      <circle cx="38" cy="166" r="3" fill="#ffbe58"/><text x="52" y="173">Double dispatch + explicit-stack traversal</text>
+      <circle cx="38" cy="200" r="3" fill="#39c6df"/><text x="52" y="207">Size, search &amp; statistics as separate visitors</text>
+      <circle cx="38" cy="234" r="3" fill="#39c6df"/><text x="52" y="241">Cycle guards, immutable snapshots &amp; tests</text>
+    </g>
+    <text x="32" y="283" font-size="16" font-family="Consolas, monospace" fill="#8fbbc9">JAVA 17  /  MAVEN  /  JUNIT 5</text>
+  </g>
+  <g font-family="Consolas, monospace">
+    <text x="669" y="55" font-size="14" letter-spacing="1" fill="#b9f3fa">ONE TREE. MANY OPERATIONS.</text>
+    <path d="M670 70H912" stroke="#39c6df" stroke-opacity=".35"/>
+    <g fill="none" stroke="#39c6df" stroke-width="2">
+      <path d="M791 123V145H710V166M791 145H871V166M710 194V211H684V226M710 211H737V226M871 194V226"/>
+    </g>
+    <g stroke="#ffbe58" stroke-width="2" fill="#082334">
+      <path d="M764 93H784L791 101H818V123H764Z"/>
+      <path d="M688 167H704L710 174H732V194H688Z"/>
+      <path d="M849 167H865L871 174H893V194H849Z"/>
+    </g>
+    <g fill="#082334" stroke="#b9f3fa" stroke-width="1.5">
+      <path d="M675 226H687L694 233V249H675ZM687 226V233H694"/>
+      <path d="M728 226H740L747 233V249H728ZM740 226V233H747"/>
+      <path d="M862 226H874L881 233V249H862ZM874 226V233H881"/>
+    </g>
+    <text x="791" y="117" text-anchor="middle" font-size="15" fill="#ffbe58">root</text>
+    <g font-size="13" text-anchor="middle">
+      <rect x="665" y="263" width="66" height="22" rx="11" fill="#39c6df"/><text x="698" y="279" fill="#082334">size</text>
+      <rect x="740" y="263" width="81" height="22" rx="11" fill="#b9f3fa"/><text x="780.5" y="279" fill="#082334">search</text>
+      <rect x="830" y="263" width="87" height="22" rx="11" fill="#ffbe58"/><text x="873.5" y="279" fill="#082334">stats</text>
+    </g>
+  </g>
+</svg>

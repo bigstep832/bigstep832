@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">Dynamic programming and string search</title>
+  <desc id="desc">Java algorithms with LCS and merge-plan reconstruction, tree independent sets, KMP, Rabin–Karp, suffix arrays, Aho–Corasick, and independent test oracles. A string-search diagram highlights overlapping matches.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#b9f3fa" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="958" height="318" rx="20" fill="#082334" stroke="#23617b" stroke-width="2"/>
+  <path d="M1 302C162 270 265 325 428 296S756 265 959 296V300Q959 319 940 319H20Q1 319 1 302Z" fill="#073456"/>
+  <rect x="646" y="24" width="290" height="272" rx="14" fill="#073456"/>
+  <rect x="646" y="24" width="290" height="272" rx="14" fill="url(#grid)"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="32" y="38" font-size="15" font-weight="700" letter-spacing="2" fill="#39c6df">DEEP DIVE / ALGORITHMS</text>
+    <text x="32" y="88" font-size="34" font-weight="700" fill="#f0fbfd">Dynamic programming &amp; search</text>
+    <text x="32" y="121" font-size="20" fill="#b9f3fa">String search. Reconstructed solutions.</text>
+    <g font-size="20" fill="#e0f2f7">
+      <circle cx="38" cy="166" r="3" fill="#ffbe58"/><text x="52" y="173">Reconstruct LCS, merge plans &amp; tree sets</text>
+      <circle cx="38" cy="200" r="3" fill="#39c6df"/><text x="52" y="207">KMP · Rabin–Karp · suffix array + LCP</text>
+      <circle cx="38" cy="234" r="3" fill="#39c6df"/><text x="52" y="241">Aho–Corasick + independent test oracles</text>
+    </g>
+    <text x="32" y="283" font-size="16" font-family="Consolas, monospace" fill="#8fbbc9">JAVA  /  PYTHON TESTS  /  JSONL</text>
+  </g>
+  <g font-family="Consolas, monospace">
+    <text x="669" y="55" font-size="14" letter-spacing="1" fill="#b9f3fa">FIND THE PATTERN</text>
+    <path d="M670 70H912" stroke="#39c6df" stroke-opacity=".35"/>
+    <g fill="#082334" stroke="#39758b">
+      <rect x="669" y="91" width="35" height="43" rx="6"/><rect x="710" y="91" width="35" height="43" rx="6"/>
+      <rect x="751" y="91" width="35" height="43" rx="6"/><rect x="792" y="91" width="35" height="43" rx="6"/>
+      <rect x="833" y="91" width="35" height="43" rx="6"/><rect x="874" y="91" width="35" height="43" rx="6"/>
+    </g>
+    <g fill="#edfaff" font-size="25" text-anchor="middle">
+      <text x="686.5" y="121">b</text><text x="727.5" y="121">a</text><text x="768.5" y="121">n</text>
+      <text x="809.5" y="121">a</text><text x="850.5" y="121">n</text><text x="891.5" y="121">a</text>
+    </g>
+    <rect x="710" y="148" width="117" height="38" rx="6" fill="#ffbe58"/>
+    <text x="768.5" y="174" text-anchor="middle" font-size="23" letter-spacing="24" dx="12" fill="#082334">ana</text>
+    <path d="M727 141V148M810 141V148" stroke="#ffbe58" stroke-width="2"/>
+    <rect x="792" y="200" width="117" height="38" rx="6" fill="#39c6df"/>
+    <text x="850.5" y="226" text-anchor="middle" font-size="23" letter-spacing="24" dx="12" fill="#082334">ana</text>
+    <path d="M836 167H893V193M888 188L893 193L898 188" fill="none" stroke="#39c6df" stroke-width="2"/>
+    <text x="669" y="271" font-size="15" fill="#b9f3fa">overlaps preserved</text>
+    <circle cx="902" cy="266" r="4" fill="#ffbe58"/>
+  </g>
+</svg>
