@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="100" viewBox="0 0 1280 100" role="img" aria-labelledby="ocean-title ocean-desc">
+  <title id="ocean-title">A little ocean between projects</title>
+  <desc id="ocean-desc">Gentle cyan ocean waves drift across a deep blue background while tiny bubbles float. The animation stops when reduced motion is requested.</desc>
+  <defs>
+    <clipPath id="ocean-clip">
+      <rect width="1280" height="100" rx="14"/>
+    </clipPath>
+    <linearGradient id="ocean-depth" x1="0" y1="0" x2="0" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#082A45"/>
+      <stop offset="1" stop-color="#063C5B"/>
+    </linearGradient>
+    <path id="ocean-wave" d="M0 54 C80 34 240 34 320 54 S560 74 640 54 S880 34 960 54 S1200 74 1280 54 S1520 34 1600 54 S1840 74 1920 54 V120 H0 Z"/>
+  </defs>
+  <style>
+    .ocean-back { animation: ocean-drift 10s linear infinite reverse; }
+    .ocean-front { animation: ocean-drift 8s linear infinite; }
+    .ocean-bubbles { animation: ocean-float 7s ease-in-out infinite alternate; }
+    .ocean-bubbles-late { animation-delay: -3s; }
+    @keyframes ocean-drift {
+      from { transform: translateX(0); }
+      to { transform: translateX(-640px); }
+    }
+    @keyframes ocean-float {
+      from { transform: translateY(3px); opacity: 0.45; }
+      to { transform: translateY(-7px); opacity: 0.8; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .ocean-back, .ocean-front, .ocean-bubbles { animation: none; }
+    }
+  </style>
+  <g clip-path="url(#ocean-clip)">
+    <rect width="1280" height="100" fill="url(#ocean-depth)"/>
+    <g class="ocean-back">
+      <use href="#ocean-wave" transform="translate(0 -12)" fill="#27C8D8" fill-opacity="0.14" stroke="#5DE4EF" stroke-opacity="0.45" stroke-width="1.5"/>
+    </g>
+    <g class="ocean-front">
+      <use href="#ocean-wave" transform="translate(0 9)" fill="#30DCF0" fill-opacity="0.16" stroke="#70EDFF" stroke-opacity="0.8" stroke-width="2"/>
+    </g>
+    <g fill="none" stroke="#A4F4FF" stroke-width="1.5">
+      <g class="ocean-bubbles" opacity="0.65">
+        <circle cx="174" cy="74" r="4"/>
+        <circle cx="188" cy="59" r="2"/>
+        <circle cx="704" cy="82" r="3"/>
+        <circle cx="1118" cy="63" r="4"/>
+      </g>
+      <g class="ocean-bubbles ocean-bubbles-late" opacity="0.5">
+        <circle cx="429" cy="69" r="3"/>
+        <circle cx="438" cy="55" r="1.5"/>
+        <circle cx="928" cy="84" r="4"/>
+        <circle cx="943" cy="69" r="2"/>
+      </g>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="99" rx="13.5" fill="none" stroke="#186381" stroke-opacity="0.6"/>
+</svg>

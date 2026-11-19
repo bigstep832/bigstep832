@@ -1,0 +1,26 @@
+Grand Blue media credits
+Retrieved: 2026-11-18
+
+The files below are downloaded unchanged from Tenor. They are existing
+anime clips/stills, separate from the generated fan-art cover.
+Grand Blue anime and source imagery belong to their respective rights holders.
+
+assets/oolong-tea.gif
+Type: animated GIF, 500 x 280, 133 frames, 6.05 seconds, 1,421,026 bytes.
+Uploader: Ledesmo on Tenor.
+Source page: https://tenor.com/view/oolong-tea-grand-blue-iori-gif-13475090
+Original file: https://media1.tenor.com/m/Ue71z05x8iIAAAAd/oolong-tea-grand-blue.gif
+
+assets/not-water.gif
+Type: still reaction frame in GIF format, 640 x 360, 1 frame, 139,134 bytes.
+Uploader: lynxlynx on Tenor.
+Source page: https://tenor.com/view/grand-blue-gif-21543758
+Original file: https://media1.tenor.com/m/cgoP0CzpOoMAAAAd/grand-blue.gif
+
+assets/water-test.gif
+Type: animated GIF, 220 x 170, 11 frames, 1.1 seconds, 47,229 bytes.
+Discovered in the related media of the oolong tea Tenor source page above.
+Original file: https://media.tenor.com/uM-_uWPq9mAAAAAM/oolong-burn.gif
+
+The local copies keep the README independent of external image hotlinks.
+Source-page links remain alongside the images in README.md.
